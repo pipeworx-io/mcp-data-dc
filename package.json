@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-data-dc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "DataDC MCP — Washington, DC open data (opendata.dc.gov, ArcGIS REST API).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-156777aa82d88c4520c78ff15bd9276c05d5fd915d83271dfd8b7b04b021c503",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-49388db6726fd2eefd69744cf6c6793b0114bb52004394ac68acb658d5bb4fb8",
+    "sourceCommit": "5b29c2b0c11e1fcd954969a245b474e6e9475116"
   }
 }

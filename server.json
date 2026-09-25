@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/data-dc",
   "title": "Data Dc",
   "description": "DataDC MCP — Washington, DC open data (opendata.dc.gov, ArcGIS REST API).",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/data-dc",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-data-dc",
