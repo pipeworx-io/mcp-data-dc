@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-data-dc",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "DataDC MCP — Washington, DC open data (opendata.dc.gov, ArcGIS REST API).",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-data-dc": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "data-dc"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-data-dc.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/data-dc",
   "pipeworx": {
-    "sourceHash": "v1-0f19d779a095a26535bd2db0ed2a074177ecb71d58815d9bf18d224ac32d9728",
-    "sourceCommit": "01241619b78233fd55d0e3612331499a63f03ae7"
+    "mode": "gateway",
+    "slug": "data-dc",
+    "gatewaySlug": "data-dc",
+    "sourceHash": "v1-3e9c7b3bf836bd0e19f6f5e01fa1efb85a8d8d765cee10b3546d8940acccb20d",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }
